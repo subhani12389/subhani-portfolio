@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download, ExternalLink } from "lucide-react";
-import profileImage from "/lovable-uploads/657bc8d4-502d-4ca0-845a-13328cbce1b2.png";
+import profileImage from "@/assets/profile-image.png";
 
 const Hero = () => {
   const socialLinks = [
@@ -16,7 +16,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center hero-bg">
+    <section id="home" className="min-h-screen flex items-center hero-bg pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
@@ -84,11 +84,11 @@ const Hero = () => {
           {/* Right Content - Profile Image */}
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden glow-effect">
+              <div className="w-[250px] h-[250px] rounded-full overflow-hidden glow-effect border-4 border-accent/20 bg-gradient-to-br from-accent/10 to-transparent p-1">
                 <img
                   src={profileImage}
                   alt="Mahaboob Subhani - Full Stack Developer"
-                  className="w-full h-full object-cover hover-scale smooth-transition"
+                  className="w-full h-full object-cover rounded-full hover-scale smooth-transition"
                 />
               </div>
               {/* Decorative elements */}
