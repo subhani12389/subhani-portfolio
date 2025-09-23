@@ -1,17 +1,20 @@
 // Portfolio JavaScript functionality
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize navigation
-    initNavigation();
+    // Initialize all functions
+    initializeNavigation();
+    initializeTypingEffect();
+    initializeScrollAnimations();
+    initializeSkillBars();
+    initializeContactForm();
     
-    // Initialize scroll animations
-    initScrollAnimations();
-    
-    // Initialize contact form
-    initContactForm();
-    
-    // Initialize smooth scrolling
-    initSmoothScrolling();
+    // Initialize AOS
+    AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: true,
+        offset: 100
+    });
 });
 
 // Navigation functionality

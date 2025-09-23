@@ -1,15 +1,17 @@
-/* Portfolio Design System - Dark theme with orange accents */
+/* Modern Portfolio Styles - Professional Blue Theme */
 :root {
-    /* Colors */
-    --bg-primary: #1a1a1a;
-    --bg-secondary: #2a2a2a;
-    --bg-card: #333333;
-    --text-primary: #ffffff;
-    --text-secondary: #cccccc;
-    --text-muted: #999999;
-    --accent-color: #ff6b35;
-    --accent-hover: #ff8560;
-    --border-color: #444444;
+    /* Primary Colors */
+    --primary-color: #2563eb;
+    --primary-dark: #1d4ed8;
+    --primary-light: #3b82f6;
+    --primary-gradient: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    
+    /* Neutral Colors */
+    --white: #ffffff;
+    --light-gray: #f8fafc;
+    --gray: #64748b;
+    --dark-gray: #334155;
+    --black: #0f172a;
     
     /* Gradients */
     --gradient-accent: linear-gradient(135deg, #ff6b35, #ff8560);
