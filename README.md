@@ -3,8 +3,7 @@
 Welcome to my personal developer portfolio website! This project is a fully responsive, highly animated, and modern single-page portfolio built from scratch. It features rich visual aesthetics, smooth scroll reveal animations, a custom parallax headshot wrapper, and glassmorphism design elements aligned with a professional dark red/coral theme.
 
 ## 🔗 Live Site
-Live Deployed URL (HTTPS): **[subhani-portfolio.pages.dev](https://subhani-portfolio.pages.dev)**
-*(Note: If you deploy to Vercel, this link will be `https://subhani-portfolio.vercel.app`)*
+Live Deployed URL (HTTPS): **[subhani-portfolio.sk5826314.workers.dev](https://subhani-portfolio.sk5826314.workers.dev/)**
 
 ---
 
