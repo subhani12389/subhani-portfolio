@@ -1,48 +1,50 @@
 import { SectionHeader } from "./SectionHeader";
-import { ExternalLink, Stethoscope, Wrench } from "lucide-react";
+import { ExternalLink, Video, Calendar, ClipboardCheck } from "lucide-react";
 import { GithubIcon } from "./icons/SocialIcons";
 import Reveal from "./Reveal";
 
 const projects = [
   {
-    icon: Stethoscope,
-    name: "Mediq",
-    tagline: "Patient Appointment System",
-    desc: "Real-time doctor availability platform that simplifies healthcare access.",
+    icon: Video,
+    name: "Audio Video Chat",
+    tagline: "Real-Time WebRTC App",
+    desc: "A high-performance peer-to-peer audio and video chat application with mesh topology and Socket.io signaling server.",
     highlights: [
-      "Reduced booking steps from 6 to 3",
-      "550+ active weekly users",
-      "Real-time slot updates",
+      "Real-time video & audio streaming",
+      "Mesh network topology for peer communication",
+      "Integrated secure text chat & mic/cam toggles",
     ],
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["Next.js", "WebRTC", "Socket.io", "TypeScript"],
     gradient: "from-[#8e2de2] to-[#22d3ee]",
-    repo: "https://github.com/subhani12389/Mediq-project",
-    demo: "https://subhani12389.github.io/Mediq-project/",
+    repo: "https://github.com/subhani12389/audio-video-chat-web-application.git",
   },
   {
-    icon: Wrench,
-    name: "QuickFix",
-    tagline: "Home Services Platform",
-    desc: "On-demand home service booking with OTP auth and live location detection.",
+    icon: Calendar,
+    name: "Event Booking App",
+    tagline: "Seamless Ticket Booking",
+    desc: "A modern platform that simplifies ticket booking, inventory updates, and seat reservations for events.",
     highlights: [
-      "OTP authentication & geolocation",
-      "Reduced booking time by 80%",
-      "Improved retention by 25%",
+      "Secure real-time payment integration",
+      "Auto-sync seat availability grid",
+      "Interactive organizer analytics panel",
     ],
-    tags: ["React Native", "Express", "MySQL"],
+    tags: ["React", "Node.js", "Express", "MongoDB"],
     gradient: "from-[#4a00e0] to-[#8e2de2]",
-    repo: "https://github.com/subhani12389/QUICKFIX",
-    demo: "https://subhani12389.github.io/QUICKFIX/",
+    repo: "https://github.com/subhani12389/event-booking-app.git",
   },
   {
-    icon: ExternalLink,
-    name: "Payment Gateway",
-    tagline: "Payment Gateway Integration",
-    desc: "A ready payment gateway integration demo and utilities.",
-    highlights: ["Secure payment flow", "Multiple gateway adapters", "Ready-to-integrate"],
-    tags: ["Node.js", "Stripe", "Express"],
+    icon: ClipboardCheck,
+    name: "Quick Check",
+    tagline: "Smart University Attendance",
+    desc: "A responsive, quick, and easy university check-in and attendance verification dashboard system.",
+    highlights: [
+      "One-click QR code check-in flows",
+      "Live student validation & logs",
+      "Automated reports and CSV downloads",
+    ],
+    tags: ["React", "Express", "MySQL", "Tailwind CSS"],
     gradient: "from-[#ff8a80] to-[#ffa07a]",
-    repo: "https://github.com/subhani12389/payment-gateway-ready",
+    repo: "https://github.com/23MHCQ05254/Quick-check.git",
   },
 ];
 

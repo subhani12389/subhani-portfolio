@@ -35,9 +35,9 @@ This application is built with a modern, high-performance frontend architecture:
 3. **On-Scroll Animations:** Beautiful fade-up reveals applied to sections, cards, and text content that trigger exactly when entering the viewport.
 4. **Mobile Navigation Overlay:** An interactive hamburger menu that opens a sleek glassmorphic navigation overlay.
 5. **Interactive Projects Grid:** Highlights real public project repositories with titles, taglines, description, tech badges, and clickable code & demo links:
-   * 🩺 **Mediq** (Patient Appointment System) — [GitHub Repo](https://github.com/subhani12389/Mediq-project)
-   * 🔧 **QuickFix** (Home Services Platform) — [GitHub Repo](https://github.com/subhani12389/QUICKFIX)
-   * 💳 **Payment Gateway** (Integration Demo) — [GitHub Repo](https://github.com/subhani12389/payment-gateway-ready)
+   * 📹 **Audio Video Chat** (Real-Time WebRTC App) — [GitHub Repo](https://github.com/subhani12389/audio-video-chat-web-application.git)
+   * 📅 **Event Booking App** (Seamless Ticket Booking) — [GitHub Repo](https://github.com/subhani12389/event-booking-app.git)
+   * 📝 **Quick Check** (Smart University Attendance) — [GitHub Repo](https://github.com/23MHCQ05254/Quick-check.git)
 6. **Functional Contact System:** Includes validation using Zod and triggers a pre-filled `mailto` flow on submission, ensuring seamless communication.
 7. **Accessibility-Ready:** Complete with `@media (prefers-reduced-motion: reduce)` block to instantly disable all animations for users with reduced motion preferences.
 8. **Optimized Assets:** High-quality image assets compressed to high-efficiency WebP files (`profile.webp` and `bg-hero.webp`) under 150KB/300KB thresholds for near-instant page load times.
