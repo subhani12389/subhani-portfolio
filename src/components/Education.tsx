@@ -1,5 +1,6 @@
 import { SectionHeader } from "./SectionHeader";
 import { GraduationCap } from "lucide-react";
+import Reveal from "./Reveal";
 
 const items = [
   {
@@ -33,21 +34,23 @@ export function Education() {
               >
                 <div className="absolute left-4 top-6 h-3 w-3 -translate-x-1/2 rounded-full gradient-primary shadow-glow md:left-1/2" />
                 <div className="ml-12 flex-1 md:ml-0">
-                  <div className="glass hover-lift rounded-2xl p-6">
-                    <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg gradient-accent">
-                      <GraduationCap className="h-5 w-5 text-white" />
+                  <Reveal>
+                    <div className="glass hover-lift rounded-2xl p-6">
+                      <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg gradient-accent">
+                        <GraduationCap className="h-5 w-5 text-white" />
+                      </div>
+                      <h3 className="font-display text-lg font-semibold">{it.school}</h3>
+                      <p className="mt-1 text-sm text-muted-foreground">{it.degree}</p>
+                      <div className="mt-3 flex flex-wrap items-center gap-3 text-xs">
+                        <span className="rounded-full bg-white/5 px-3 py-1 text-muted-foreground">
+                          {it.period}
+                        </span>
+                        <span className="rounded-full gradient-primary px-3 py-1 font-semibold text-white">
+                          {it.score}
+                        </span>
+                      </div>
                     </div>
-                    <h3 className="font-display text-lg font-semibold">{it.school}</h3>
-                    <p className="mt-1 text-sm text-muted-foreground">{it.degree}</p>
-                    <div className="mt-3 flex flex-wrap items-center gap-3 text-xs">
-                      <span className="rounded-full bg-white/5 px-3 py-1 text-muted-foreground">
-                        {it.period}
-                      </span>
-                      <span className="rounded-full gradient-primary px-3 py-1 font-semibold text-white">
-                        {it.score}
-                      </span>
-                    </div>
-                  </div>
+                  </Reveal>
                 </div>
                 <div className="hidden flex-1 md:block" />
               </div>
